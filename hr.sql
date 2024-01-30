@@ -18,7 +18,7 @@ CREATE TABLE jobs (
 	max_salary NUMERIC(9, 2) NOT NULL
 );
 
--- Creating department table, adding data types and constraints to different columns-------
+-- Creating department table, I made sure that each department is unique to prevent data duplication. I added data types and constraints to different columns-------
 CREATE TABLE department(
 	dept_id INT PRIMARY KEY AUTO_INCREMENT,
 	dept_name VARCHAR(50) NOT NULL,
